@@ -27,6 +27,8 @@ This repository is the **canonical technical home** for White Paper v0.1 (Octobe
 ## Publication status
 
 - **Phase 1 (this release):** threat model, architecture, protocol drafts, governance model, and white paper PDF.
+- **Local preview:** open `site/public/index.html` (or serve `site/public`) for the landing page + PDF download.
+- **Public GitHub:** create/connect a public repository named `ai-certain` and push this tree; that becomes the canonical home.
 - **Next:** reference AICP gateway, test corpus, and community contributions.
 
 ## Contributing
