@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI-CERTAIN — White Paper v0.1</title>
+  <meta name="description" content="AI-CERTAIN: A Global Open Infrastructure for AI Containment, Resilience and Democratic Control. White Paper v0.1." />
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121a2b;
+      --text: #e8eefc;
+      --muted: #9aa8c7;
+      --accent: #5b8cff;
+      --border: #24314d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1a2744, transparent), var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    main {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      line-height: 1.15;
+      margin: 0.4rem 0 0.75rem;
+    }
+    .lead {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 42rem;
+    }
+    .quote {
+      margin: 1.75rem 0;
+      padding: 1rem 1.2rem;
+      border-left: 3px solid var(--accent);
+      background: var(--panel);
+      border-radius: 0 8px 8px 0;
+      font-weight: 500;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 1.5rem 0 2rem;
+    }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.7rem 1.1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      border: 1px solid var(--border);
+    }
+    a.btn.primary {
+      background: var(--accent);
+      color: #071018;
+      border-color: transparent;
+    }
+    a.btn.secondary {
+      background: transparent;
+      color: var(--text);
+    }
+    a.btn:hover { filter: brightness(1.08); }
+    section {
+      margin-top: 2rem;
+      padding: 1.25rem;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    h2 { margin: 0 0 0.75rem; font-size: 1.15rem; }
+    ul { margin: 0; padding-left: 1.2rem; color: var(--muted); }
+    li { margin: 0.35rem 0; }
+    footer {
+      margin-top: 2.5rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">White Paper v0.1 · October 2026</p>
+    <h1>AI-CERTAIN</h1>
+    <p class="lead">
+      A global open infrastructure for AI containment, resilience and democratic control.
+      Proposed by Sachin Chitre / RiskLine ecosystem.
+    </p>
+    <blockquote class="quote">
+      No AI system should ever possess more power than an independent, auditable control layer can revoke.
+    </blockquote>
+    <div class="actions">
+      <a class="btn primary" href="./AI-CERTAIN_White_Paper_v0.1.pdf" target="_blank" rel="noopener">Download PDF</a>
+      <a class="btn secondary" href="#about">About this release</a>
+    </div>
+
+    <section id="about">
+      <h2>What this publication is</h2>
+      <ul>
+        <li>Canonical Phase&nbsp;1 release of the AI-CERTAIN open infrastructure proposal</li>
+        <li>Threat model, seven-layer architecture, and draft protocol family (AICP, AEP, ACP, AISIG, AIRP, AIRM)</li>
+        <li>Vendor-neutral: open protocols first; RiskLine is positioned as continuous assurance—not the owner of the control plane</li>
+        <li>Source of truth is intended to live in a public <code>ai-certain</code> GitHub repository (Markdown specs + this PDF)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Publication channels (from planning thread)</h2>
+      <ul>
+        <li><strong>Primary:</strong> public GitHub repository <code>ai-certain</code></li>
+        <li><strong>Engage (not one-click publish):</strong> OWASP GenAI, NIST/NCCoE discussion, C2PA for provenance</li>
+        <li><strong>Later:</strong> arXiv / ACM / IEEE after implementation and evaluation; IETF for protocol drafts</li>
+        <li><strong>Distribution:</strong> RiskLine and LinkedIn announce and link—do not treat as ownership</li>
+      </ul>
+    </section>
+
+    <footer>
+      Licensed documentation intended under CC&nbsp;BY&nbsp;4.0. This page mirrors White Paper v0.1 for local preview and sharing while the public GitHub home is connected.
+    </footer>
+  </main>
+</body>
+</html>
