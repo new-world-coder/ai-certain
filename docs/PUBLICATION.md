@@ -4,8 +4,20 @@ This release implements **Phase 1** of the minimum viable open-source project: p
 
 ## Canonical home (implemented here)
 
-- GitHub repository **`ai-certain`** with Markdown specifications and PDF in `docs/`.
-- The GitHub repository is intended to be the **source of truth**, not the PDF alone.
+- Full Phase 1 tree is ready in this workspace: Markdown specifications and PDF in `docs/`.
+- The public GitHub repository **`ai-certain`** is intended to be the **source of truth**, not the PDF alone.
+
+## External publish attempt (2026-10-05)
+
+Automated browser publish was attempted. **Nothing was created on GitHub or Zenodo.**
+
+| Target | Result | Blocker |
+|--------|--------|---------|
+| GitHub signup / new repo | Failed | IP/network restriction: “Access is temporarily restricted” (unusual activity); no existing session |
+| Zenodo via GitHub OAuth | Failed | Same GitHub restriction |
+| Zenodo via ORCID / email | Failed | Needs verifiable human email / existing ORCID |
+
+**Unblock:** sign in to GitHub from your own network, create public repo `ai-certain`, then either add that remote and ask this agent to push, or push yourself from `/workspace`. Optional: archive the PDF on Zenodo under your ORCID for a DOI.
 
 ## Secondary channels (engagement, not v0.1 upload targets)
 
