@@ -1,13 +1,21 @@
-# License
+# Licensing
 
-## Documentation and specifications (v0.1)
+AI-CERTAIN uses **standard OSI / Creative Commons licenses only**. No custom license.
 
-Unless otherwise noted, documentation and protocol drafts in this repository are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+| Material | License | Why |
+|----------|---------|-----|
+| **Software & reference implementations** (gateway, adapters, SDKs, tooling) | [Apache License 2.0](./LICENSE) | Permissive enough for multiple independent (including commercial) implementations; includes an **explicit patent grant**—important for security infrastructure. Preferable to MIT for this project. |
+| **Documentation, white paper, and protocol drafts** (`WHITEPAPER.md`, `docs/`, `PROTOCOLS/`, architecture/threat-model/governance prose) | [CC BY 4.0](./LICENSES/CC-BY-4.0.txt) | Normal for papers and specs: free to share and adapt with attribution. |
 
-You are free to share and adapt the material for any purpose, even commercially, provided you give appropriate credit.
+## What we considered
 
-Full legal text: https://creativecommons.org/licenses/by/4.0/
+- **MIT** — Fine for adoption, but weaker patent language than Apache for an identity/capability/control-plane stack.
+- **GNU GPL / AGPL** — Strong copyleft can force derivatives to stay open, but it often **slows enterprise and multi-vendor adoption** of a shared protocol ecosystem. Capture resistance for AI-CERTAIN is handled in [GOVERNANCE.md](./GOVERNANCE.md), not by copyleft.
+- **Custom license** — **Not recommended.** Companies and many contributors will not adopt unfamiliar terms; GitHub/OSI discoverability suffers.
 
-## Software (forthcoming)
+## SPDX identifiers
 
-Reference implementation code (Phase 2+) will be released under an OSI-approved open-source license (expected: Apache-2.0), declared when code lands.
+- Code: `Apache-2.0`
+- Docs/specs: `CC-BY-4.0`
+
+Copyright (c) 2026 Sachin Chitre and AI-CERTAIN contributors.

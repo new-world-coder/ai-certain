@@ -60,7 +60,12 @@ GitHub topics for this repo (searchable): `ai-security`, `agentic-ai`, `ai-agent
 
 ## License
 
-Documentation and protocol drafts: **[CC BY 4.0](./LICENSE.md)**. Reference implementation code (Phase 2+) will ship under an OSI-approved license (expected Apache-2.0).
+**No custom license.** Standard dual licensing:
+
+- **Software / reference implementations:** [Apache-2.0](./LICENSE)
+- **White paper, docs, and protocol drafts:** [CC BY 4.0](./LICENSES/CC-BY-4.0.txt)
+
+See [LICENSE.md](./LICENSE.md) for rationale (Apache preferred over MIT; GPL/AGPL not chosen so independent commercial implementers can adopt the protocols).
 
 ## Citation
 
