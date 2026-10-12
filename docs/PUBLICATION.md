@@ -17,7 +17,7 @@ Automated browser publish was attempted. **Nothing was created on GitHub or Zeno
 | Zenodo via GitHub OAuth | Failed | Same GitHub restriction |
 | Zenodo via ORCID / email | Failed | Needs verifiable human email / existing ORCID |
 
-**Unblock:** sign in to GitHub from your own network, create public repo `ai-certain`, then either add that remote and ask this agent to push, or push yourself from `/workspace`. Optional: archive the PDF on Zenodo under your ORCID for a DOI.
+**Status update (2026-10-12):** Public repo exists at https://github.com/new-world-coder/ai-certain. Content is prepared to push; GitHub API description/topics metadata is documented in [GITHUB_META.md](./GITHUB_META.md). Push requires a GitHub credential in this environment (`gh auth login` or `GH_TOKEN` with `repo` scope).
 
 ## Secondary channels (engagement, not v0.1 upload targets)
 
